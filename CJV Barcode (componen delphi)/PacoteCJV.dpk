@@ -1,0 +1,75 @@
+package PacoteCJV;
+
+{$R *.res}
+{$R 'CJVEditDate.dcr'}
+{$R 'CJVEditFloat.dcr'}
+{$R 'CJVCalculaDV.dcr'}
+{$R 'CJVBlinkLabel.dcr'}
+{$R 'CJVExtenso.dcr'}
+{$R 'CJVCriptografa.dcr'}
+{$R 'CJVDigBoleto.dcr'}
+{$R 'CJVDigito.dcr'}
+{$R 'CJVScrollLabel.dcr'}
+{$R 'CJVLinkLabel.dcr'}
+{$R 'CJVSemaphoro.dcr'}
+{$R 'CJVLed.dcr'}
+{$R 'CJVArrecada4.dcr'}
+{$R 'CJVBarCode.dcr'}
+{$R 'CJVDBBarcode.dcr'}
+{$R 'CJVQRBarCode.dcr'}
+{$R 'CJVQRDBBarCode.dcr'}
+{$R 'CJVArrecada3.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Pacote de Componentes CJV'}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  vcldb,
+  rtl,
+  qrpt,
+  vclx,
+  bdertl,
+  dbrtl;
+
+contains
+  CJVEditDate in 'CJVEditDate.pas',
+  CJVEditFloat in 'CJVEditFloat.pas',
+  CJVCalculaDV in 'CJVCalculaDV.pas',
+  CJVBlinkLabel in 'CJVBlinkLabel.pas',
+  CJVExtenso in 'CJVExtenso.pas',
+  CJVCriptografa in 'CJVCriptografa.pas',
+  CJVDigBoleto in 'CJVDigBoleto.pas',
+  CJVDigito in 'CJVDigito.pas',
+  CJVScrollLabel in 'CJVScrollLabel.pas',
+  CJVLinkLabel in 'CJVLinkLabel.pas',
+  CJVSemaphoro in 'CJVSemaphoro.pas',
+  CJVLed in 'CJVLed.pas',
+  CJVArrecada4 in 'CJVArrecada4.pas',
+  CJVBarCode in 'CJVBarCode.pas',
+  CJVDBBarcode in 'CJVDBBarcode.pas',
+  CJVQRBarCode in 'CJVQRBarCode.pas',
+  CJVQrDbBarCode in 'CJVQRDBBarCode.pas',
+  CJVArrecada3 in 'CJVArrecada3.pas';
+
+end.

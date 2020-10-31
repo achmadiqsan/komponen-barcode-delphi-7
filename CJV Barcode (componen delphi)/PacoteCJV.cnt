@@ -1,0 +1,30 @@
+:Base PacoteCJV
+:Title Pacote de Componentes CJV
+1 Componente TCJVCalculaDv
+2 Propriedades e Métodos=CJVCalculaDv
+1 Componente TCJVDigBoleto
+2 Propriedades e Métodos=CJVCalculaDv
+1 Componente TCJVEditDate e TCJVEditFloat
+2 Propriedades e Métodos=CJVEdit
+1 Componente TCJVCriptografa
+2 Propriedades e Métodos=CJVCriptografa
+1 Componente TCJVDigito, TCJVLed e TCJVSemaphoro
+2 Propriedades e Métodos=CJVGraficos
+1 Componente TCJVExtenso
+2 Propriedades e Métodos=CJVExtenso
+1 Componente TCJVLinkLabel, TCJVBlinkLabel e TCJVScrollLabel
+2 Propriedades e Métodos=CJVLabel
+1 Componente TCJVArrecada4
+2 Propridades e Métodos=CJVArrecada4
+1 Componente TCJVBarcode e TCJVDBBarCode
+2 Propriedades e Métodos=CJVBarCode
+1 Componente TCJVQRBarCode e CJVQRDBBarCode
+2 CJVQRBarCode=CJVQRBarCode
+2 CJVQRDBBarCode=CJVQRDBBarCode
+1 Padrões de códigos de barras
+2 Padrão Code128=Code128
+2 Padrão Code39=Code39
+2 Padrão Code2e5I=Code25
+2 Padrão EAN13=CodeEAN13
+1 Autor
+2 Contato=Autor

@@ -1,0 +1,62 @@
+Pacote de Componentes CJV
+======================================
+Autor   : Wwww.veloso.adm.br 
+Versão  : 1.0.0.4
+Revisão : Mar/2005
+Objetivo: Pacotes de componentes para Delphi.
+
+
+Revisão 1.0.0.2:
+.Novas propriedades no Componente CJVBarCode
+..LegendaFont: TFont (Color / Tamanho da Fonte)
+..LegendaPos : Integer (Posição inicial da Legenda)
+
+.Novo Componente CJVArrecada3 
+..componente para criação da Guia de contribuição sindical(GRCS)
+
+Revisão 1.0.0.3:
+.Tamanho automatico da barra quando alterar a propriedade texto
+..Deixar a propriedade AutoSize:=False.
+.Novos padrões de código de barras
+..btCodeEAN8 (EAN8)
+..btCodeUPCA (UPC-A)
+
+Revisão 1.0.0.4:
+.Alteração do Componente CJVArrecada4
+..Adequação ao manual de arrecadação 4 revisao 25/05/2004 - Febraban
+
+Revisão 1.0.0.5:
+.Alteração do Componente CJVQRBarcode e CJVQRdbBarcode
+..problema com código de barras todo preto.
+
+
+Instalação
+----------
+
+<No Delphi7>
+1.Descompacte o arquivo .zip na Pasta ...Delphi7\lib\CJV (crie a pasta CJV em Lib)
+2.Component->Install Packages->Add (localize o arquivo PacoteCJV.BPL)
+  ou
+  Execute o Delphi e entre em "File" sub-item "Open",
+  localizar o arquivo "PacoteCJV.dpk" abra o projeto e clique em "Install" 
+  Fechar o projeto PacoteCJV, não precisar salvar.
+3.Procurar o componente na Paleta "CJV".
+
+4.IMPORTANTE:
+Informar ao Delphi onde esta o Pacote de componentes:
+.Tools
+ .Environment options
+  .Library
+   .Library Path
+    Adicionar o caminho: $(DELPHI)\LIB\CJV
+
+
+Comprar Fontes
+==============
+http://www.veloso.adm.br/comopagar.asp
+
+
+Contato: Cirilo J. Veloso
+Fone   : 0xx11 8147-7138
+Email  : cjveloso@ig.com.br / cirilo@veloso.adm.br
+Site   : www.veloso.adm.br / www.veloso.kit.net
